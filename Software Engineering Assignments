@@ -1,5 +1,7 @@
 #include<iostream>
+
 using namespace std;
+
 int i,month;
 float total,high,low;
 int displayMonthly(float rain[])
@@ -71,6 +73,7 @@ cout<<"6. End program\n";
 cout<<"Enter your choice : ";
 cin>>n;
 witch(n)
+
 {
 case 1 : displayMonthly(rain);
 break;
